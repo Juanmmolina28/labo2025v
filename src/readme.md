@@ -60,7 +60,7 @@ Para ejecutar y reproducir este experimento, siga los siguientes pasos:
     * Ejecute las celdas que definen los conjuntos de *training* (`foto_mes` hasta `202105` con *undersampling* de 40% de la clase `CONTINUA`) y *validation* (`202107`).
 
 2.  **Optimización Bayesiana (Hyperparameter Tuning):**
-    * Ejecute el bloque que inicia la `mbo()`. Este proceso puede tardar, ya que realiza `20` iteraciones (o más, según se modifique el parámetro `PARAM$hipeparametertuning$num_interations`) para encontrar los mejores hiperparámetros de LightGBM (optimizando el **AUC** en el set de *validation*).
+    * Ejecute el bloque que inicia la `mbo()`. Este proceso puede tardar, ya que realiza `50` iteraciones (o más, según se modifique el parámetro `PARAM$hipeparametertuning$num_interations`) para encontrar los mejores hiperparámetros de LightGBM (optimizando el **AUC** en el set de *validation*).
 
 ### 4. Producción y Entrega (Celdas posteriores)
 

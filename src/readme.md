@@ -69,4 +69,4 @@ Para ejecutar y reproducir este experimento, siga los siguientes pasos:
 
 2.  **Scoring y Kaggle Submit:**
     * El modelo final se aplica al set de **futuro** (`202109`).
-    * Se generan los archivos de envío (`KAxxxxxx_yyyy.csv`) para Kaggle utilizando los **cortes** definidos (`1800` a `2400`) y se realiza la subida automáticamente usando el comando `kaggle competitions submit`.
+    * Se generan los archivos de envío (`KAxxxxxx_yyyy.csv`) para Kaggle en este caso se deja solo con 2100 envíos ya que se trata de la mejor alternativa evaluada.
